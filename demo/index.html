@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+  <head>
+    <title>fontInstalled demo</title>
+    <meta charset="utf-8">
+    <style type="text/css">
+      /* Download http://www.fontsc.com/font/download/seymour-one to test */
+      @font-face {
+        font-family: "Seymour One";
+        font-style: normal;
+        font-weight: 400;
+        src: local("Seymour One"), local("SeymourOne"), url(http://themes.googleusercontent.com/static/fonts/seymourone/v2/-D8Zpf17gNh35R70Dk_bcbrIa-7acMAeDBVuclsi6Gc.woff) format("woff");
+      }
+      body { font-family: "Seymour One", sans-serif; }
+      .yes { color: green; }
+      .no { color: red; }
+    </style>
+  </head>
+  <body>
+    <h1>¡hola, amigo!</h1>
+    <p class="installed"></p>
+    <script type="text/javascript" src="../fontinstalled.js"></script>
+    <script type="text/javascript" src="demo.js"></script>
+  </body>
+</html>
